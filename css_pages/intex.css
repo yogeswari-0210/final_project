@@ -1,0 +1,200 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+
+.navbar {
+  display: flex;
+  
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 2px solid #f2f2f2;
+  
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 700;
+  color: orange;
+}
+
+.logo span {
+  color: #333;
+}
+
+
+.search-container {
+  position: relative;
+  
+  align-items: center;
+  width: 40%;
+  
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px 45px 10px 15px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+
+
+.search-container button {
+  position: absolute;
+  right: 10px;
+  
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-container button:hover {
+  background: grey;
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 70px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.nav-links a:hover {
+  color: orange;
+}
+
+
+.shop-links {
+  display: flex;
+  justify-content: space-around;
+  
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.shop-links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.shop-links a:hover {
+  color: orange;
+}
+.logo {
+  font-size: 50px;
+  font-weight: 700;
+  color: orange;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #333;
+}
+
+
+
+
+
+
+
+.shop-section {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  padding: 40px 20px;
+  
+}
+
+.shop-card {
+  text-decoration: none;
+  
+  display: block;
+  position: relative;
+  width: 280px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.shop-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.shop-card:hover img {
+  transform: scale(1.05);
+}
+
+.shop-card .overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.poster-section {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px 20px 40px;
+  
+}
+
+
+
+.poster-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.poster-card:hover img {
+  transform: scale(1.05);
+}
+
+
+
+
+footer {
+  text-align: center;
+  background: #f9f9f9;
+  padding: 30px;
+}
+
+.contact-btn {
+  background: orange;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background: #ff9800;
+}
+

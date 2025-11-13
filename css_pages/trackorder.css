@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 2px solid #f2f2f2;
+  
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.logo span {
+  color: orange;
+}
+
+.logo:hover {
+  color: orange;
+}
+
+.logo span {
+  color: #333;
+}
+
+
+.search-container {
+  position: relative;
+
+  align-items: center;
+  width: 40%;
+  min-width: 250px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 10px 45px 10px 15px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+   transition: 0.3s;
+}
+
+
+
+
+.search-container button:hover {
+  background: grey;
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 80px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.nav-links a:hover {
+  color: orange;
+}
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  cursor: pointer;
+}
+ .search-container button {
+  position: absolute;
+  right: 10px;
+  
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+  .order-container {
+    background: #fff;
+    width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-bottom: 6%;
+    margin-left: 23%;
+    margin-top: 5%;
+  }
+
+  .order-header {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 25px;
+  }
+
+  .order-header img {
+    width: 130px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+
+  
+
+  .status-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    
+  }
+
+  .status-circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #ddd;
+    margin-right: 15px;
+    
+  }
+
+  .status-step.active .status-circle {
+    background: #28a745;
+  }
+
+  .status-label {
+    font-weight: 500;
+    color: #333;
+  }
+
+
+  .admin-reply strong {
+    color: green;
+  }
+
+  .cancel-btn {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+  .cancel-btn:hover {
+    background:orange;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+    .footer {
+      background-color: #E88D28;;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+      position: sticky;
+      bottom: 0;
+    }
+
+    .footer a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+    }
+     a{
+   text-decoration: none;
+   color: #E88D28;
+}
