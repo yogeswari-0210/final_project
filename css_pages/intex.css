@@ -83,7 +83,7 @@ body {
 
 .shop-links {
   display: flex;
-  justify-content: space-around;
+   justify-content: space-around; 
   
   font-weight: 600;
   margin: 20px 0;
@@ -117,13 +117,13 @@ body {
 .shop-section {
   display: flex;
   justify-content: center;
-  gap: 90px;
+  gap: 100px;
   padding: 40px 20px;
   
 }
 
 .shop-card {
-  text-decoration: none;
+  /* text-decoration: none; */
   
   display: block;
   position: relative;
@@ -158,7 +158,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 100px;
-  padding: 20px 20px 40px;
+  padding: 20px  40px;
   
 }
 
