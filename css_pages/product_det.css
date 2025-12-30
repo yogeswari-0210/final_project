@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family:  sans-serif;
 }
 
 body {
@@ -90,13 +90,13 @@ body {
 
 .container {
   background: #fff;
-  /
+  
   align-items: center;
   gap: 20px   ;
-  padding: 2rem;
+  padding: 32px;
   max-width: 900px;
   width: 90%;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px 8px rgba(0,0,0,0.1);
   border-radius: 8px;
   margin: 150px auto;
 }
@@ -127,7 +127,7 @@ body {
 button {
   background: orange;
   border: none;
-  padding: 0.8rem 1.5rem;
+  padding :15px 40px;
   border-radius: 6px;
   color: #000;
   font-weight: bold;
