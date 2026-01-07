@@ -138,5 +138,19 @@ button {
 button:hover {
   background: #ffb300;
 }
+.back-wrapper {
+  margin-top: 20px;
+}
+
+.back-btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: orange;
+  font-size: 14px;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
 
 
